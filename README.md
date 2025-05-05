@@ -20,7 +20,7 @@ Everything is to be considered still in beta. Expect things to be added or chang
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/0xReisearch/crypto-mcp-beta
 cd crypto_mcp
 ```
 
