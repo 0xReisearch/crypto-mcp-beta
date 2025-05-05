@@ -12,7 +12,7 @@ Everything is to be considered still in beta. Expect things to be added or chang
 
 ## Prerequisites
 
-- Python 3.10 or higher
+- Python 3.12
 - `uv` package manager
 - API keys for the services you plan to use
 
@@ -21,7 +21,7 @@ Everything is to be considered still in beta. Expect things to be added or chang
 1. Clone the repository:
 ```bash
 git clone https://github.com/0xReisearch/crypto-mcp-beta
-cd crypto_mcp
+cd crypto-mcp-beta
 ```
 
 2. Install uv (if not already installed):
