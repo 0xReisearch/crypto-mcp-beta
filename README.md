@@ -5,6 +5,10 @@ You can use them without providing API keys at app.reisearch.box or you can use 
 
 Everything is to be considered still in beta. Expect things to be added or changed with no warnings.
 
+<a href="https://glama.ai/mcp/servers/@0xReisearch/crypto-mcp-beta">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@0xReisearch/crypto-mcp-beta/badge" alt="REI Crypto Server MCP server" />
+</a>
+
 ## Current MCP servers:
 - DefiLlama Pro API
 - CoinGecko Pro API
