@@ -9,6 +9,11 @@ Everything is to be considered still in beta. Expect things to be added or chang
 - DefiLlama Pro API
 - CoinGecko Pro API
 - Arkham Intelligence API
+- Elfa AI API
+- Codex API
+
+Codex at the moment is just used for searching a contract address from the name. Deeper implementation will come in the near future.
+Codex uses GraphQL for it's query system. Edit the query to hardcode some parameters in case you need stricter filtering.
 
 ## Prerequisites
 
@@ -49,9 +54,11 @@ cp .env_example .env
 
 Edit `.env` with your API keys:
 ```
-DEFILLAMA_API_KEY=your_defillama_api_key
-CG_API_KEY=your_coingecko_api_key
-ARKHAM_API_KEY=your_arkham_api_key
+ARKHAM_API_KEY=<YOUR ARKHAM_API_KEY>
+CG_API_KEY=<YOUR_CG_API_KEY>
+DEFILLAMA_API_KEY=<YOUR_DEFILLAMA_API_KEY>
+CODEX_API_KEY=<YOUR_CODEX_API_KEY>
+ELFA_API_KEY=<YOUR_ELFA_API_KEY>
 ```
 
 ## Running the Servers
@@ -67,6 +74,12 @@ uv run cg_server.py
 
 # Run Arkham server
 uv run arkham_server.py
+
+# Run Codex server
+uv run codex_server.py
+
+# Run Elfa AI server
+uv run elfa_server.py
 ```
 
 ## Configuring Claude Desktop
@@ -100,6 +113,20 @@ Example configuration:
                 "user@your-host",
                 "cd /path/to/crypto_mcp && /path/to/uv run defillama_server.py"
             ]
+        },
+        "codex": {
+            "command": "ssh",
+            "args": [
+                "user@your-host",
+                "cd /path/to/crypto_mcp && /path/to/uv run codex_server.py"
+            ]
+        },
+        "elfa": {
+            "command": "ssh",
+            "args": [
+                "user@your-host",
+                "cd /path/to/crypto_mcp && /path/to/uv run elfa_server.py"
+            ]
         }
     }
 }
@@ -114,6 +141,8 @@ Replace the following:
 
 - [DefiLlama API Documentation](https://defillama.com/pro-api/docs)
 - [CoinGecko API Documentation](https://docs.coingecko.com/reference/introduction)
+- [Codex API Documentation](https://docs.codex.io/reference/overview)
+- [Elfa AI Api Documentation](https://www.elfa.ai/) - Contact Elfa directly for api access.
 - [Arkham Intelligence](https://intel.arkm.com/) - You need to contact Arkham directly for api access.
 
 ## Feedback
