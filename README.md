@@ -1,5 +1,7 @@
 # REI Crypto MCP Server - Beta
 
+[![smithery badge](https://smithery.ai/badge/@0xReisearch/crypto-mcp-beta)](https://smithery.ai/server/@0xReisearch/crypto-mcp-beta)
+
 FastMCP implementation of the in-house MCP servers used by Units of the Rei Network.
 You can use them without providing API keys at app.reisearch.box or you can use them with other MCP clients deploying them yourself.
 
@@ -23,6 +25,15 @@ Codex uses GraphQL for it's query system. Edit the query to hardcode some parame
 
 ## Installation
 
+### Installing via Smithery
+
+To install REI Crypto MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@0xReisearch/crypto-mcp-beta):
+
+```bash
+npx -y @smithery/cli install @0xReisearch/crypto-mcp-beta --client claude
+```
+
+### Manual Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/0xReisearch/crypto-mcp-beta
