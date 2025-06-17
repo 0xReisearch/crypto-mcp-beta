@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/0xreisearch-crypto-mcp-beta-badge.png)](https://mseep.ai/app/0xreisearch-crypto-mcp-beta)
+
 # REI Crypto MCP Server - Beta
 
 FastMCP implementation of the in-house MCP servers used by Units of the Rei Network.
